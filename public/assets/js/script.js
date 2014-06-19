@@ -3,8 +3,12 @@ var message = $('#message'),
 	msg_history = [],
 	history_index = 0
 
-$(document).click(function(){
-	message.focus();
+$(document).click(function(e){
+
+	if(e.clientY > message.offset().top){
+		message.focus();
+	}
+	
 })
 
 if(!localStorage.name){
