@@ -8,6 +8,7 @@
     "express": "^3.4.8",
     "socket.io": "^0.9.16",
     "stylus": "^0.45.0",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "zeparser": "0.0.7"
   }
 }
